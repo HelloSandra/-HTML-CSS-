@@ -83,7 +83,7 @@ table {
     display: block;
     width: 198px;
     height: 48px;
-    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+    background-image: url(img/logo.png);
     text-indent: 100%;
     overflow: hidden;
   }
@@ -107,11 +107,11 @@ table {
   
   /***banner***/
   .banner{
-    background-image: url("https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png" );
+    background-image: url("img/banner.png" );
     height: 346px;
     display: flex;
     flex-direction: column;
-      justify-content: center;
+    justify-content: center;
     margin-bottom: 60px;
   }
   .banner h2{
@@ -133,10 +133,18 @@ table {
     margin-bottom: 80px;
   }
   .product_list{
+    width: 300px;
     box-shadow: 1px 3px 10px gray;/*陰影：X Y 模糊 顏色*/
     border-radius: 3px;/*四角形狀：左上 右上 右下 左下*/
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .product_list img{
+    display: block;  /*圖片水平置中*/
+    margin: 15px auto;  /*圖片水平置中*/
+    width: 150px; 
+    height: 150px;
+    object-fit: contain; /*先框出一個固定的區域(寬度高度)，讓圖片可以完整且剛好放進去。*/
   }
   .product_list h3{
     font-size: 20px;
