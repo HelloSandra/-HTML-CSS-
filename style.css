@@ -77,6 +77,7 @@ table {
   .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   /**logo**/
   .header h1 a{
@@ -92,10 +93,9 @@ table {
     display: flex;
     align-items: center;
   }
-  .menu li{
-    padding: 15px;
-  }
   .menu a{
+    display: block;
+    padding: 15px;
     text-decoration: none;
     font-weight: bolder;
     color: #00cc99;
@@ -169,15 +169,15 @@ table {
     text-align: center;
     margin-bottom: 30px;
   }
-  table{
+  .compare{
     margin: 0 auto;
   }
-  table th,td{
+  .compare th,td{
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     padding: 10px 60px;
   }
-  table th{
+  .compare th{
     background: #f6f6f6;
     text-align: left; /*針對"項目"一欄*/
     font-weight: bolder;
@@ -222,15 +222,15 @@ table {
     margin-bottom: 5px;
   }
   .personal_info input{
+    display: block;
     width: 400px;
-    height: 28px;
+    line-height: 28px;
     border: none;
     border-radius: 3px;
     margin-bottom: 20px;
   }
   .personal_info .btn{ /*CSS權重*/
     width: 70px;
-    height: 30px;
     color: white;
     background: #00cc98;
     border: none;
@@ -248,14 +248,17 @@ table {
   .footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
   }
   .footer li{
     margin-bottom: 10px; /*壓縮到圖片??但圖片加a又會恢復*/
     font-weight: bold;
   }
-  .footer span{
+  .footer a{
+    text-decoration: none;
     color: #E12F81;
+
   }
   .footer img{
     width: 171px;

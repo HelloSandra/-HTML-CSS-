@@ -55,13 +55,15 @@
             </li>
           </ul>
           <h2>線上及實體課程的差異</h2>
-          <table>
-            <tr>   <!--列-->
-              <th>項目</th>   <!--欄、字體粗-->
-              <th>Hex School線上課程</th>
-              <th>一般線上課程</th>
-              <th>實體課程</th>
-            </tr>
+          <table class="compare">
+            <thead>  <!--表頭-->
+              <tr>   <!--列-->
+                <th>項目</th>   <!--欄、字體粗-->
+                <th>Hex School線上課程</th>
+                <th>一般線上課程</th>
+                <th>實體課程</th>
+              </tr>
+            </thead>
             <tr>
               <td>費用</td>   <!--欄、字體一般-->
               <td class="highlight">較低</td>
@@ -111,9 +113,9 @@
               <p>姓名</p>
               <input type="text" name="name" placeholder="請輸入姓名">
               <p>電話</p>
-              <input type="text" name="phone" placeholder="請輸入電話">
+              <input type="tel" name="phone" placeholder="請輸入電話">
               <p>信箱</p>
-              <input type="text" name="mail" placeholder="請輸入信箱">
+              <input type="email" name="mail" placeholder="請輸入信箱">
               <input type="submit" value="送出" class="btn">
             </div>
           </form>
@@ -121,8 +123,8 @@
         <div class="footer">
           <a href="#"><img src="img/footerLogo.png" alt="logo"></a>
           <ul>
-            <li>聯絡我們：<span>hexschool@gmail.com</span></li>
-            <li>電話：<span>099912346</span></li>
+            <li>聯絡我們：<a href="mailto:hexschool@gmail.com">hexschool@gmail.com</a></li>
+            <li>電話：<a href="tel:+886-99912346">099912346</a></li>
           </ul>
         </div>
       </div>
